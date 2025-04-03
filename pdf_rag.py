@@ -86,7 +86,7 @@ def main():
             username=username,
             password=password,
             embedding=embeddings,
-            index_name="pdf_bot",
+            index_name="pdf_rag",
             node_label="PdfBotChunk",
             pre_delete_collection=True,  # Delete existing PDF data
         )

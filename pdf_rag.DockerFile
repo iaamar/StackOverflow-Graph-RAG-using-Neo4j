@@ -12,7 +12,7 @@ COPY requirements.txt .
 
 RUN pip install --upgrade -r requirements.txt
 
-COPY pdf_bot.py .
+COPY pdf_rag.py .
 COPY utils.py .
 COPY chains.py .
 
@@ -20,4 +20,4 @@ EXPOSE 8503
 
 HEALTHCHECK CMD curl --fail http://localhost:8503/_stcore/health
 
-ENTRYPOINT ["streamlit", "run", "pdf_bot.py", "--server.port=8503", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "pdf_rag.py", "--server.port=8503", "--server.address=0.0.0.0"]
