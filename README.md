@@ -14,7 +14,7 @@ There are 5 use case namely:
 
 # Configure
 
-Create a `.env` file from the environment template file `env.example`
+Create a `.env` file
 
 Available variables:
 | Variable Name          | Default value                      | Description                                                             |
@@ -23,7 +23,7 @@ Available variables:
 | NEO4J_URI              | neo4j://database:7687              | REQUIRED - URL to Neo4j database                                        |
 | NEO4J_USERNAME         | neo4j                              | REQUIRED - Username for Neo4j database                                  |
 | NEO4J_PASSWORD         | password                           | REQUIRED - Password for Neo4j database                                  |
-| LLM                    | llama2                             | REQUIRED - Can be any Ollama model tag, or gpt-4 or gpt-3.5 or claudev2 |
+| LLM                    | latest                             | REQUIRED - Can be any Ollama model tag, or gpt-4 or gpt-3.5 or claudev2 |
 | EMBEDDING_MODEL        | sentence_transformer               | REQUIRED - Can be sentence_transformer, openai, aws, ollama or google-genai-embedding-001|
 | LANGCHAIN_ENDPOINT     | "https://api.smith.langchain.com"  | OPTIONAL - URL to Langchain Smith API                                   |
 | LANGCHAIN_TRACING_V2   | false                              | OPTIONAL - Enable Langchain tracing v2                                  |
