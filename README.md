@@ -10,6 +10,8 @@ There are 5 use case namely:
 -   RAG Query API
 -   Modern Support Interface - (Vite, Svelte, Tailwind) RAG App
 
+# Demo
+[![Watch the demo](https://i9.ytimg.com/vi_webp/GMYpCrw0ZWI/mq2.webp?sqp=COjivL8G-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgZShlMA8=&rs=AOn4CLBx3ViQLpOonJ6bKf2Ppg6NPPW9Xw)](https://youtu.be/GMYpCrw0ZWI)
 
 
 # Configure
